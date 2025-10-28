@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Test, coverage and tooling caches
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+tmp/
+.cache/
+
+# Playwright (Python) outputs
+playwright-report/
+test-results/
+
+# Project-specific generated state
+baiyun_state.json
